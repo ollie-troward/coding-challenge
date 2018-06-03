@@ -4,6 +4,7 @@ import com.ollietroward.coding.challenge.I.I.IsUnique
 import com.ollietroward.coding.challenge.I.II.CheckPermutation
 import com.ollietroward.coding.challenge.I.III.URLify
 import com.ollietroward.coding.challenge.I.IV.PalindromePermutation
+import com.ollietroward.coding.challenge.I.IX.StringRotation
 import com.ollietroward.coding.challenge.I.V.OneAway
 import com.ollietroward.coding.challenge.I.VI.StringCompressor
 import com.ollietroward.coding.challenge.I.VII.MatrixRotator
@@ -68,5 +69,9 @@ object Main {
         for (i in 0 until clearedMatrix.size) {
             println(Arrays.toString(clearedMatrix[i]))
         }
+
+        println("I.IX")
+        println(StringRotation.rotate("erbottlewat", "waterbottle"))
+        println(StringRotation.rotate("bobble", "lebobbl"))
     }
 }
