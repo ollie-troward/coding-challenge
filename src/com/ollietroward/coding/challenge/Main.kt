@@ -9,6 +9,7 @@ import com.ollietroward.coding.challenge.I.V.OneAway
 import com.ollietroward.coding.challenge.I.VI.StringCompressor
 import com.ollietroward.coding.challenge.I.VII.MatrixRotator
 import com.ollietroward.coding.challenge.I.VIII.ZeroMatrix
+import com.ollietroward.coding.challenge.II.I.LinkedList
 import java.util.*
 
 
@@ -73,5 +74,14 @@ object Main {
         println("I.IX")
         println(StringRotation.rotate("erbottlewat", "waterbottle"))
         println(StringRotation.rotate("bobble", "lebobbl"))
+
+        println("II.I")
+        val linkedList: LinkedList? = LinkedList(1)
+        linkedList?.add(2)
+        linkedList?.add(2)
+        linkedList?.add(3)
+        linkedList?.add(2)
+        linkedList?.remove(2)
+        linkedList?.printList()
     }
 }
